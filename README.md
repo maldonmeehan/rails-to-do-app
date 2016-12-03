@@ -1,24 +1,53 @@
-# README
+# Candlelight Restaurant and Lounge
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+By Maldon Meehan | Date: December 1, 2016
 
-Things you may want to cover:
+An Rails to do app
 
-* Ruby version
+## Prerequisites
 
-* System dependencies
+You will need the following things properly installed on your computer.
 
-* Configuration
+Rails
 
-* Database creation
+## Setup/Installation Requirements
 
-* Database initialization
+```
+$ git clone https://github.com/maldonmeehan/stomptown-dance.git
+```
 
-* How to run the test suite
+Install required gems:
+```
+$ bundle
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+Run Postgres:
+```
+$ postgres
+```
 
-* Deployment instructions
+Open a new window and run:
+```
+$ rake db:create
+```
+```
+$ rake db:seed
+```
+```
+rake db:migrate && rake db:test:prepare
+```
 
-* ...
+```
+$ rails s
+```
+
+### Tech Used
+
+* Ruby on Rails
+
+
+### License
+
+*This software is licensed under the MIT license.*
+
+Copyright (c) 2016 **Maldon Meehan, Meaghan Jones, Rachael Bermudes and Olivia Hinton**
